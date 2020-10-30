@@ -19,11 +19,11 @@ supported.vendorpatchlevels=
 
 
 ### AnyKernel install
-## boot files attributes
-boot_attributes() {
-set_perm_recursive 0 0 755 644 $RAMDISK/*;
-set_perm_recursive 0 0 750 750 $RAMDISK/init* $RAMDISK/sbin;
-} # end attributes
+# ## boot files attributes
+# boot_attributes() {
+# set_perm_recursive 0 0 755 644 $RAMDISK/*;
+# set_perm_recursive 0 0 750 750 $RAMDISK/init* $RAMDISK/sbin;
+# } # end attributes
 
 # boot shell variables
 BLOCK=/dev/block/by-name/boot;
