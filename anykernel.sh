@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Custom kernel for gts10fe by @Flopster101
+kernel.string=FloppyKernel v1.0a for Galaxy Tab S10 FE by @Flopster101
 do.devicecheck=1
 do.modules=0
 do.systemless=1
